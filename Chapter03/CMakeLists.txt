@@ -10,4 +10,5 @@ add_executable(Chapter03
         ex4.c
         ex5.c
         ex6.c
-        ex7.c)
+        ex7.c
+        ex9.c)
