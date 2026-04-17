@@ -5,10 +5,15 @@ int main() {
     printf("Nhap a, b, c: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    int min = a;
+    int min;
 
-    if (b < min) min = b;
-    if (c < min) min = c;
+    if (a <= b && a <= c) {
+        min = a;
+    } else if (b <= a && b <= c) {
+        min = b;
+    } else {
+        min = c;
+    }
 
     printf("So nho nhat: %d", min);
     return 0;
