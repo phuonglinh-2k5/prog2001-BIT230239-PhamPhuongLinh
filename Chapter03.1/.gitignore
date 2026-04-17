@@ -1,0 +1,50 @@
+# =========================
+# BUILD FILES (C/C++)
+# =========================
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# =========================
+# CMAKE / CLION
+# =========================
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# LOG / TEMP
+# =========================
+*.log
+*.tmp
+
+# =========================
+# OPTIONAL: CHỈ CHO PHÉP FILE .c
+# (nếu muốn strict hơn thì bật phần này)
+# =========================
+# *
+# !*.c
+# !*.h
+# !CMakeLists.txt
+# !.gitignore
