@@ -12,8 +12,7 @@ int main() {
 
     printf("Nhap %d san pham:\n", n);
 
-    getchar(); // ✅ chỉ đặt 1 lần trước vòng lặp
-
+    getchar();
     for (int i = 0; i < n; i++) {
         printf("\nSan pham %d\n", i + 1);
 
@@ -23,7 +22,7 @@ int main() {
 
         printf("Gia: ");
         scanf("%f", &p1[i].price);
-        getchar(); // ✅ xóa '\n' sau scanf
+        getchar(); 
     }
 
     // 3. Ghi file TEXT
@@ -33,7 +32,7 @@ int main() {
         return 1;
     }
 
-    fprintf(f, "%d\n", n); // ghi số lượng
+    fprintf(f, "%d\n", n); 
 
     for (int i = 0; i < n; i++) {
         fprintf(f, "%s\n%.2f\n", p1[i].name, p1[i].price);
