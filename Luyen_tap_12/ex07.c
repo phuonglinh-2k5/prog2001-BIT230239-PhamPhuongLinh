@@ -7,13 +7,11 @@ int main() {
     printf("Nhap ky tu: ");
     scanf("%c", &c);
 
-    // Kiểm tra ký tự số
     if (isdigit(c)) {
         printf("Ky tu so la: %c", c);
     }
-    // Kiểm tra ký tự chữ
     else if (isalpha(c)) {
-        c = toupper(c); // chuyển sang chữ hoa
+        c = toupper(c);
         printf("Ky tu chu la: %c", c);
     }
     else {
