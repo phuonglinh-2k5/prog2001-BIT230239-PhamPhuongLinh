@@ -11,7 +11,7 @@ int main() {
         return 0;
     }
 
-    // Tính tiền taxi
+    
     if (km <= 1) {
         tien = km * 15000;
     }
@@ -22,7 +22,7 @@ int main() {
         tien = 15000 + 4 * 13000 + (km - 5) * 11000;
     }
 
-    // Giảm 10% nếu trên 120km
+   
     if (km > 120) {
         tien = tien * 0.9;
     }
